@@ -3,7 +3,7 @@ import json
 import aiohttp
 import pandas as pd
 
-API_KEYS = ["ABF9ywHizJTFKI1DQfhNc9GwPA1PknOP", "JDzUjtQtuskoFjNgBVsM8fVksJizIJ6Z"]
+API_KEYS = []
 MODEL = "mistral-large-latest"
 API_URL = "https://api.mistral.ai/v1/chat/completions"
 REQUEST_TIMEOUT_SECONDS = 60
